@@ -8,7 +8,7 @@ bcrypt = Bcrypt(app)
 
 @app.route('/')
 def index():
-    return render_template('Podcast.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     # Dashboard-Server auf Port 8080
